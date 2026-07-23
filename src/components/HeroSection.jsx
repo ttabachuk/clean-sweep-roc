@@ -9,7 +9,7 @@ export const HeroSection = () => {
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nisi aut expedita veniam dignissimos culpa, ducimus, repellat exercitationem quia rerum facere reprehenderit adipisci. Voluptatibus consequatur ducimus omnis fugiat quas repellendus.</p>
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                        <a href="#projects" className="button">view my work</a>
+                        <a href="#about" className="button">view more</a>
                     </div>
                 </div>
             </div>
