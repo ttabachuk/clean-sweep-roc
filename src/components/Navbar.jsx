@@ -10,16 +10,7 @@ const navItems = [
   { name: "contact", href: "#contact" },
 ];
 export const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.screenY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5 bg-background")}>

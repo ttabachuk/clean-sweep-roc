@@ -6,6 +6,7 @@ const navItems = [
   { name: "contact", href: "#contact" },
 ];
 
+
 export const Footer = () => {
   return (
     <footer className="py-10 px-4 bg-secondary">

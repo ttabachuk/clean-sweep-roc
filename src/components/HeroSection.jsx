@@ -13,7 +13,7 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="opacity-0 animate-fade-in-delay-1">
               {" "}
-              Lena
+              Olena
             </span>
           </h1>
           <p className="text-1xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-2">

@@ -1,4 +1,14 @@
 import { Phone, MessageSquare, Mail, } from "lucide-react";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { PiHeartLight } from "react-icons/pi";
+
+const socials = [
+  { icon: Phone, href: "tel:+15854069936", label: "Call"},
+  { icon: MessageSquare, href: "sms:+15854069936", label: "Text"},
+  { icon: Mail, href: "mailto:cleansweeproc@gmail.com", label: "Email"},
+  { icon: FaFacebook, href: "https://www.facebook.com/people/Clean-Sweep-ROC/61577825017529/", label: "Facebook"},
+  { icon: FaInstagram, href: "https://www.instagram.com/clean_sweep_roc", label: "Instagram"},
+]
 
 export const ContactSection = () => {
   return (
@@ -8,20 +18,19 @@ export const ContactSection = () => {
         <h2 className="text-1xl md:text-2xl font-semibold tracking-tight mb-4">
           Let's get in touch
         </h2>
-        <p className="">
-          Feel free to reach out to me via phone, sms, or email. I’d love to get
-          in touch and help you with your cleaning needs.
+        <span>
+          <p>
+          Feel free to reach out to me via phone, sms, email, or social media. I’d love to get
+          in touch and help you with your cleaning needs <PiHeartLight size={20} className="inline-block" />
         </p>
-        <div className="flex justify-center items-center gap-8 mt-8">
-          <a href="tel:+15854069936" aria-label="Call">
-            <Phone className="w-6 h-6" />
-          </a>
-          <a href="sms:+15854069936" aria-label="Text">
-            <MessageSquare className="w-6 h-6" />
-          </a>
-          <a href="mailto:cleansweeproc@gmail.com" aria-label="Email">
-            <Mail className="w-6 h-6" />
-          </a>
+        </span>
+        
+        <div className="flex flex-row justify-center items-center gap-8 mt-8">
+          {socials.map(({ icon: Icon, href, label }) => (
+            <a key={label} href={href} aria-label={label}>
+              <Icon size={20} />
+            </a>
+          ))}
         </div>
       </div>
     </section>

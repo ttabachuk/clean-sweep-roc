@@ -69,22 +69,7 @@
 
     --border: 167 22% 90%; /* soft, pale mint border */
   }
-  .dark {
-    --background: 265 20% 14%; /* deep lilac-navy */
-    --foreground: 44 55% 93%; /* warm cream off-white */
-
-    --card: 265 16% 18%;
-
-    --primary: 175 35% 65%; /* brighter seafoam against dark bg */
-    --primary-foreground: 175 30% 14%;
-
-    --secondary: 44 50% 65%; /* brighter pale yellow for dark bg */
-    --secondary-foreground: 44 40% 14%;
-
-    --accent: 265 30% 60%; /* brighter lilac for dark bg */
-    --accent-foreground: 265 25% 92%;
-  }
-
+  
   * {
     @apply border-border;
   }
