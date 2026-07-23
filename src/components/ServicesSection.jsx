@@ -36,7 +36,7 @@ const services = [
 export const ServicesSection = () => {
   return (
     <section
-      id="about"
+      id="services"
       className="py-24 px-4 flex flex-col relative bg-primary"
     >
       {" "}

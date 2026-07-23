@@ -4,7 +4,7 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative py-12 px-4 flex flex-col items-center justify-center bg-cover bg-center min-h-[50vh] lg:min-h-[80vh] text-secondary"
+      className="relative py-12 px-4 flex flex-col items-center justify-center bg-cover bg-center min-h-[70vh] lg:min-h-[80vh] text-secondary"
       style={{ backgroundImage: `url(${roomImg})` }}
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
