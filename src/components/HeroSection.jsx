@@ -11,7 +11,7 @@ export const HeroSection = () => {
         <div className="space-y-6">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
+            <span className="opacity-0 animate-fade-in-delay-1">
               {" "}
               Lena
             </span>
@@ -20,7 +20,7 @@ export const HeroSection = () => {
             I started <b>clean sweep roc</b> because I believe cleaning should be more than a checklist — it's peace of mind. My team and I show up, do honest work, and treat your space like it matters.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#about" className="button">
+            <a href="#about" className="button bg-secondary">
               view more
             </a>
           </div>

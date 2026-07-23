@@ -9,7 +9,7 @@ const services = [
   {
     icon: Building2,
     title: "Commercial Cleaning",
-    description: "Professional care for offices and business premises.",
+    description: "Professional care for offices and businesses.",
   },
   {
     icon: BrushCleaning,
@@ -48,7 +48,7 @@ export const ServicesSection = () => {
           {services.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
-              className="flex flex-col items-start gap-3 p-6 rounded-lg bg-card"
+              className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card"
             >
               <Icon className="w-8 h-8 text-primary-foreground" />
               <h3 className="font-semibold text-sm">{title}</h3>

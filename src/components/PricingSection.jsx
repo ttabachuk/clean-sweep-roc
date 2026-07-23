@@ -2,7 +2,7 @@ export const PricingSection = () => {
   return (
     <section
       id="pricing"
-      className="py-24 px-4 flex flex-col relative bg-secondary"
+      className="py-24 px-4 flex flex-col relative"
     >
       {" "}
       <div className="container mx-auto-max-w-5xl">
