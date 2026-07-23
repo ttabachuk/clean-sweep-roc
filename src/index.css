@@ -4,7 +4,7 @@
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-  
+
   --color-primary: hsl(var(--primary));
   --color-secondary: hsl(var(--secondary));
   --color-primary-foreground: hsl(var(--primary-foreground));
@@ -53,26 +53,26 @@
 
 @layer base {
   :root {
-    --background: 48 30% 97%;        /* soft sand/ivory, from #F2F1ED lightened */
-    --foreground: 200 25% 24%;       /* deep ocean-teal, not pure black */
+    --background: 48 30% 97%; /* soft sand/ivory, from #F2F1ED lightened */
+    --foreground: 200 25% 24%; /* deep ocean-teal, not pure black */
 
-    --card: 49 45% 94%;              /* pale cream, from #F2EBCC */
+    --card: 49 45% 94%; /* pale cream, from #F2EBCC */
 
-    --primary: 150 35% 78%;          /* mint green, from #CDE5D9 */
+    --primary: 150 35% 78%; /* mint green, from #CDE5D9 */
     --primary-foreground: 155 35% 18%; /* deep forest green text */
 
-    --secondary: 189 42% 80%;        /* powder blue, from #C6E2E7 */
+    --secondary: 189 42% 80%; /* powder blue, from #C6E2E7 */
     --secondary-foreground: 195 35% 18%; /* deep teal text */
 
-    --border: 48 25% 88%;            /* sandy border */
+    --border: 48 25% 88%; /* sandy border */
   }
   .dark {
-    --background: 200 28% 12%;       /* deep ocean navy */
-    --foreground: 48 25% 92%;        /* sand off-white */
+    --background: 200 28% 12%; /* deep ocean navy */
+    --foreground: 48 25% 92%; /* sand off-white */
 
     --card: 195 22% 16%;
 
-    --primary: 150 35% 65%;          /* brighter mint against dark bg */
+    --primary: 150 35% 65%; /* brighter mint against dark bg */
     --primary-foreground: 155 35% 12%;
 
     --secondary: 189 42% 62%;
@@ -89,14 +89,16 @@
   }
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 }
 
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
-  
+
   @media (width >= 640px) {
     max-width: 640px;
   }
@@ -116,7 +118,7 @@
 
 @utility text-glow {
   @apply relative;
-  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5)
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 }
 
 @utility card-hover {
