@@ -3,6 +3,8 @@ import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/HeroSection";
 import { Navbar } from "../components/Navbar";
+import { PricingSection } from "../components/PricingSection";
+import { ServicesSection } from "../components/ServicesSection";
 import { ThemeToggle } from "../components/ThemeToggle";
 
 export const Home = () => {
@@ -16,6 +18,8 @@ export const Home = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <ServicesSection />
+        <PricingSection />
         <ContactSection />
       </main>
       {/* footer */}

@@ -6,6 +6,7 @@ const navItems = [
   { name: "home", href: "#hero" },
   { name: "about", href: "#about" },
   { name: "services", href: "#services" },
+  { name: "pricing", href: "#pricing" },
   { name: "contact", href: "#contact" },
 ];
 export const Navbar = () => {
@@ -21,13 +22,13 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5")}>
+    <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5 bg-background")}>
       <div className="container flex items-center justify-between">
         <a
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10 text-foreground">Lorem</span>
+          <span className="relative z-10 text-foreground">clean sweep roc</span>
         </a>
 
         {/* desktop nav */}

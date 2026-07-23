@@ -1,4 +1,4 @@
-import { Phone, MessageSquare, Mail } from "lucide-react";
+import { Phone, MessageSquare, Mail, } from "lucide-react";
 
 export const ContactSection = () => {
   return (
@@ -10,18 +10,22 @@ export const ContactSection = () => {
         </h2>
         <p className="">
           Feel free to reach out to me via phone, sms, or email. I’d love to get
-          in touch and help you with your project!
+          in touch and help you with your cleaning needs.
         </p>
-        <div className="flex flex-row justify-center items-center gap-8 mt-8">
-          <a href="tel:+1234567890" aria-label="Call">
+        <div className="flex justify-center items-center gap-8 mt-8">
+          <a href="tel:+15854069936" aria-label="Call">
             <Phone className="w-6 h-6" />
           </a>
-          <a href="sms:+1234567890" aria-label="Text">
+          <a href="sms:+15854069936" aria-label="Text">
             <MessageSquare className="w-6 h-6" />
           </a>
-          <a href="mailto:you@example.com" aria-label="Email">
+          <a href="mailto:cleansweeproc@gmail.com" aria-label="Email">
             <Mail className="w-6 h-6" />
           </a>
+        </div>
+        <div className="mt-8 flex justify-center items-center gap-8">
+          <p>585•406•9936</p>
+          <p>cleansweeproc@gmail.com</p>
         </div>
       </div>
     </section>

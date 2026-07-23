@@ -53,32 +53,36 @@
 
 @layer base {
   :root {
-    --background: 48 30% 97%; /* soft sand/ivory, from #F2F1ED lightened */
-    --foreground: 200 25% 24%; /* deep ocean-teal, not pure black */
+    --background: 44 100% 97%; /* cream, very pale */
+    --foreground: 265 25% 28%; /* soft lilac-navy, for readable text */
 
-    --card: 49 45% 94%; /* pale cream, from #F2EBCC */
+    --card: 167 32% 95%; /* pale mint */
 
-    --primary: 150 35% 78%; /* mint green, from #CDE5D9 */
-    --primary-foreground: 155 35% 18%; /* deep forest green text */
+    --secondary: 44 100% 90%; /* pale yellow */
+    --secondary-foreground: 44 60% 22%; /* deep warm brown-yellow text */
 
-    --secondary: 189 42% 80%; /* powder blue, from #C6E2E7 */
-    --secondary-foreground: 195 35% 18%; /* deep teal text */
+    --primary: 222 65% 90%; /* paler periwinkle blue */
+    --primary-foreground: 222 35% 25%; /* deep periwinkle text */
 
-    --border: 48 25% 88%; /* sandy border */
+    --accent: 265 38% 91%; /* paler lilac */
+    --accent-foreground: 265 35% 22%;
+
+    --border: 167 22% 90%; /* soft, pale mint border */
   }
   .dark {
-    --background: 200 28% 12%; /* deep ocean navy */
-    --foreground: 48 25% 92%; /* sand off-white */
+    --background: 265 20% 14%; /* deep lilac-navy */
+    --foreground: 44 55% 93%; /* warm cream off-white */
 
-    --card: 195 22% 16%;
+    --card: 265 16% 18%;
 
-    --primary: 150 35% 65%; /* brighter mint against dark bg */
-    --primary-foreground: 155 35% 12%;
+    --primary: 175 35% 65%; /* brighter seafoam against dark bg */
+    --primary-foreground: 175 30% 14%;
 
-    --secondary: 189 42% 62%;
-    --secondary-foreground: 195 35% 12%;
+    --secondary: 44 50% 65%; /* brighter pale yellow for dark bg */
+    --secondary-foreground: 44 40% 14%;
 
-    --border: 195 16% 24%;
+    --accent: 265 30% 60%; /* brighter lilac for dark bg */
+    --accent-foreground: 265 25% 92%;
   }
 
   * {

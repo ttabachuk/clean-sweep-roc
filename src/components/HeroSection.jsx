@@ -1,8 +1,11 @@
+import roomImg from "../assets/room.jpeg";
+
 export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative py-12 px-4 flex flex-col items-center justify-center bg-cover bg-center min-h-[50vh] lg:min-h-[80vh] text-secondary"
+      style={{ backgroundImage: `url(${roomImg})` }}
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
@@ -10,14 +13,11 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Lorem
+              Lena
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nisi
-            aut expedita veniam dignissimos culpa, ducimus, repellat
-            exercitationem quia rerum facere reprehenderit adipisci.
-            Voluptatibus consequatur ducimus omnis fugiat quas repellendus.
+          <p className="text-1xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-2">
+            I started <b>clean sweep roc</b> because I believe cleaning should be more than a checklist — it's peace of mind. My team and I show up, do honest work, and treat your space like it matters.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#about" className="button">
