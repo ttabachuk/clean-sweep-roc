@@ -3,7 +3,6 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { PiHeartLight } from "react-icons/pi";
 
 const socials = [
-  { icon: Phone, href: "tel:+15854069936", label: "Call"},
   { icon: MessageSquare, href: "sms:+15854069936", label: "Text"},
   { icon: Mail, href: "mailto:cleansweeproc@gmail.com", label: "Email"},
   { icon: FaFacebook, href: "https://www.facebook.com/people/Clean-Sweep-ROC/61577825017529/", label: "Facebook"},
@@ -20,7 +19,7 @@ export const ContactSection = () => {
         </h2>
         <span>
           <p>
-          Feel free to reach out to me via phone, sms, email, or social media. I’d love to get
+          Feel free to reach out to me via sms, email, or social media. I’d love to get
           in touch and help you with your cleaning needs <PiHeartLight size={20} className="inline-block" />
         </p>
         </span>
