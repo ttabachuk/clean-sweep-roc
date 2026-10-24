@@ -12,8 +12,8 @@ export const PricingSection = () => {
         <div className="space-y-4">
           <p>
             There will be a $50 non-refundable payment to hold your appointment. 
-            Final payment is due on the day of service by credit or debit card, or Zelle. 
-            We no longer accept checks, but we appreciate your understanding.</p>
+            Final payment is due on the day of service by credit or debit card, check, or Zelle. 
+          </p>
         </div>
       </div>
     </section>
